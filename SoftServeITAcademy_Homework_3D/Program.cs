@@ -36,14 +36,8 @@ namespace SoftServeITAcademy_Homework_3D
             int sum = 0;
             for (i = 0; i < n; i++)
             {
-                        Console.Write(" {0} ", i);
-            }
-
-            Console.WriteLine("  ");
-             for (i = 0; i < n; i++)
-            {
-                sum += i;
-                Console.Write(" {0} ", sum);
+               sum += i;
+               Console.Write(" {0}  /n {1} ", sum);
             }
 
             Console.ReadKey();
